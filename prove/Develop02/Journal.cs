@@ -7,11 +7,17 @@ public class Journal
     public void Save(string filename,List<string> entries)
     {
         Console.WriteLine("Saving to file....");
+        string[] inFile = System.IO.File.ReadAllLines(filename);
+        List<string> lines = inFile.ToList();;
         using (StreamWriter outputFile = new StreamWriter(filename))
         {
             foreach(string entry in entries)
             {
-                outputFile.WriteLine(entry);
+                lines.Add(entry);
+            }
+            foreach(string line in lines)
+            {
+                outputFile.WriteLine(line);
             }
         }
     }
