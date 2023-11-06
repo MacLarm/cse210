@@ -33,6 +33,7 @@ public class Listing : Activity
             currentTime = DateTime.Now;
         }
         Console.WriteLine($"You listed {_itemsListed} things");
+        TimerAnimation();
         EndingMessage();
         AddPractice();
     }
