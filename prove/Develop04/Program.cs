@@ -43,7 +43,7 @@ class Program
                     break;
                 default:
                     Console.WriteLine("please enter a number 1-4");
-                    Thread.Sleep(3000);
+                    Thread.Sleep(1500);
                     break;
             }
         }
