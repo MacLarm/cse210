@@ -1,0 +1,2 @@
+Level|0|0|1
+Checklist Goal|test|test|100|0|500|5
