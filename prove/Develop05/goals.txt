@@ -1,2 +1,5 @@
-Level|0|0|1
-Checklist Goal|test|test|100|0|500|5
+Level|250|1250|2
+Checklist Goal|test|test|100|5|500|5
+Basic Goal|show off project|show ryan my project|250|True
+Eternal Goal|say prayer|say my nightly prayer|50
+Checklist Goal|Run!|just dont stop man.|100|0|1000|4
