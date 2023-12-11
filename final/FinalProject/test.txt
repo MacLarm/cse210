@@ -1,0 +1,2 @@
+test|test.txt
+test|cup test~1~Cup+|step 1~step 2~
